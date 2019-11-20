@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>CTC Global</h1>
+<title>CTC Global</title>
 <?php
 echo "<body style='background-color:blue'>";
 echo "<div align='center'>Hello CTC</div>"; 
