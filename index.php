@@ -5,5 +5,4 @@
  <body>
  <?php echo '<p>Hello World</p>'; ?> 
  </body>
- <?php phpinfo(); ?>
 </html>
