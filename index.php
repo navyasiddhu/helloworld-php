@@ -11,8 +11,12 @@
                 <?php
                 echo gethostname();
                 ?>
-
 </h3>
-[root@satellite os4.4.3]#
+  
+ <h3>Date and time:
+                <?php
+                echo getdate();
+                ?>
+</h3>
 </body>
 </html>
