@@ -7,18 +7,12 @@
 <title>CTC Global</title>
 <h1>Welcome to the DevOps Demo Application v0.</h1>
 <p><i>This app is used for demonstrating and testing various sample deployments</i></p>
-<h3>Connection to MySQL DB:
-		<?php
+<h3>Hostname:
+                <?php
+                echo gethostname();
+                ?>
 
-
-		echo "!!!!! Howdy folks !!!!!!!"; 
-		$hostname = file_get_contents('/etc/hostname', true); 
-		echo "My name is $hostname" 
-		 
-		?>
-						
-                   
 </h3>
-
+[root@satellite os4.4.3]#
 </body>
-</html> 
+</html>
