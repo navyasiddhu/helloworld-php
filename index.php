@@ -15,7 +15,8 @@
   
  <h3>Date and time:
                 <?php
-                echo getdate();
+                $date = date("D M d, Y G:i");
+                echo $date
                 ?>
 </h3>
 </body>
