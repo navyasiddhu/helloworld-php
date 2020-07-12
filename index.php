@@ -7,7 +7,7 @@
 <title>CTC Global</title>
 <h1>Welcome to the DevOps Demo Application v0.</h1>
 <p><i>This app is used for demonstrating and testing various sample deployments</i></p>
-<h3>Hostname:
+<h3>ContainerName:
                 <?php
                 echo gethostname();
                 ?>
